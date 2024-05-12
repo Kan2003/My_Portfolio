@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang=en>
+
+<head>
+    <meta charset=UTF-8>
+    <meta name=viewport content="width=device-width, initial-scale=1.0">
+    <title>KANHA VISHWAKARMA</title>
+    <link rel=apple-touch-icon sizes=180x180 href=./apple-touch-icon.png>
+    <link rel=icon type=image/png sizes=32x32 href=./favicon-32x32.png>
+    <link rel=icon type=image/png sizes=16x16 href=./favicon-16x16.png>
+    <link rel=manifest href=site.webmanifest>
+    <link rel=stylesheet href=https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.css>
+    <link rel=stylesheet href=https://unpkg.com/sheryjs/dist/Shery.css />
+    <link rel=stylesheet href=style.css>
+</head>
+
+<body>
+    <div id=loadingScreen></div>
+    <div id=cursor></div>
+    <div id=navbar>
+        <h2>Kanha.</h2>
+        <div id=right>
+            <div id=design class=ani>
+                <h2>Creative-</h2>
+                <h2>Design</h2>
+            </div>
+            <a class=ani id="works">Works</a>
+            <a class=ani id="about-link">About</a>
+            <div class=toggle>
+                <svg class=menu-opener__square width=12 height=12 viewBox="0 0 12 12" fill=none>
+                    <rect y=10 width=2 height=2 fill=currentColor></rect>
+                    <rect class=none y=5 width=2 height=2 fill=currentColor></rect>
+                    <rect width=2 height=2 fill=currentColor></rect>
+                    <rect class=none x=5 y=10 width=2 height=2 fill=currentColor></rect>
+                    <rect x=5 y=5 width=2 height=2 fill=currentColor></rect>
+                    <rect class=none x=5 width=2 height=2 fill=currentColor></rect>
+                    <rect x=10 y=10 width=2 height=2 fill=currentColor></rect>
+                    <rect class=none x=10 y=5 width=2 height=2 fill=currentColor></rect>
+                    <rect x=10 width=2 height=2 fill=currentColor></rect>
+                </svg>
+            </div>
+        </div>
+    </div>
+    <div id=topnavbar>
+        <div id=top-left>
+            <div class=top-head>
+                <h2 id="top-home">home</h2>
+            </div>
+            <div class=top-head>
+                <h2>works</h2>
+            </div>
+            <div class=top-head>
+                <h2>about</h2>
+            </div>
+            <div class=top-head>
+                <h2>contact</h2>
+            </div>
+        </div>
+        <div id=top-right>
+            <div id=social>
+                <h3>Socials</h3>
+                <div class=revel><a revel-content=Linkedin target=_blank
+                        href=https://www.linkedin.com/in/kanha-vishwakarma-3a6267225 />Linkedin</a></div>
+                <div class=revel><a revel-content="Instagram" target=_blank
+                        href="https://www.instagram.com/_kanha_2222/">Instagram</a></div>
+            </div>
+            <div id=Coding>
+                <h3>Coding Profiles</h3>
+                <div class=revel><a revel-content="Leetcode" target=_blank
+                        href=https://leetcode.com/kanha2003 />Leetcode</a></div>
+                <div class=revel><a revel-content=Hackerrank target=_blank
+                        href=https://www.hackerrank.com/dashboard>Hackerrank</a></div>
+                <div class=revel><a revel-content="GeeksForGeeks" target=_blank
+                        href=https://auth.geeksforgeeks.org/user/kanhavishwasluz>GeeksForGeeks</a></div>
+                <div class=revel><a revel-content="GitHub" target=_blank href=https://github.com/Kan2003>GitHub</a>
+                </div>
+            </div>
+            <div id=mail>
+                <h3>Say Hi!</h3>
+                <div class="revel email">
+                    <a target=_blank href=mailto:kanhavishwakarma2003@gmail.com
+                        revel-content=kanhavishwakarma2003@gmail.com>kanhavishwakarma2003@gmail.com</a>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id=main_loader>
+        <div class="r1 loader-head">
+            <div id=count>0 - <span>0</span></div>
+            <h1>YOUR</h1>
+        </div>
+        <div class=loader-head>
+            <h1>web experience</h1>
+        </div>
+        <div class=loader-head>
+            <h1>is loading right <span>now</span></h1>
+        </div>
+        <div class=newone>
+            <div class=loader-head>
+                <h4>Please wait</h4>
+            </div>
+            <div class=loader-head>
+                <h4>a second ..</h4>
+            </div>
+        </div>
+    </div>
+    <div id=main>
+        <div id=home data-scroll data-scroll-speed=2>
+            <div class=head>
+                <h1>I DESIGN</h1>
+            </div>
+            <div class=head>
+                <h1>UNIQUE</h1>
+            </div>
+            <div class=head id=line>
+                <h1>WEB</h1>
+                <h1 id=graphics>GRAPHIC</h1>
+            </div>
+            <div class=head>
+                <h1>EXPERIENCE</h1>
+            </div>
+            <div id=shape>
+                <div id=shape-1></div>
+                <div id=shape-2></div>
+            </div>
+        </div>
+        <div class=gap></div>
+        <div id=projects>
+            <div class=heading>
+                <h2>02</h2>
+                <div class=head-right>
+                    <div class=head-inside>
+                        <div class=head-main>
+                            <h1>MY PROJECTS</h1>
+                        </div>
+                    </div>
+                    <span class=line></span>
+                </div>
+            </div>
+            <div id=proj>
+                <div class=row>
+                    <div class=elem1 id=box-1 onclick="window.open('https://rhythmtrades.com/','_blank')">
+                        <div class=proj-head>
+                            <h1 data-content="RHYTHM TRADES">RHYTHM TRADES</h1>
+                        </div>
+                        <div class=image id=img1>
+                            <img src="./assets/IMG_3066.JPG" alt>
+                        </div>
+                        <div class=text>
+                            <h3 style=width:30%>rhythmtrades a Trading Website</h3>
+                            <h3>2024</h3>
+                        </div>
+                        <div class=under-line></div>
+                    </div>
+                    <div class=elem2 id=box-2 onclick="window.open('https://github.com/Kan2003/Snapgram','_blank')">
+                        <div class=proj-head>
+                            <h1 data-content=SNAPGRAM>SNAPGRAM</h1>
+                        </div>
+                        <div class="image animate">
+                            <img src="/assets/SnapGram.png"
+                                alt>
+                            <img src="/assets/snapbg.png"
+                                alt>
+                        </div>
+                        <div class=text>
+                            <h3 style=width:30%>SnapGram an social media React App</h3>
+                            <h3>2023</h3>
+                        </div>
+                        <div class=under-line></div>
+                    </div>
+                    <div class=arrow data-scroll data-scroll-speed=1>
+                        <div class=arrow-circle>
+                            <button type=button class="button button button-outline--light button--large">
+                                <span class=button__text>
+                                    <svg class=button__arrow viewBox="0 0 91 118" fill=none>
+                                        <path
+                                            d="M15.2307 57.4152L15.9378 56.708L15.2307 56.0009L14.5236 56.708L15.2307 57.4152ZM34.9813 77.1658L34.2742 77.8729L35.9813 79.58L35.9813 77.1658L34.9813 77.1658ZM0.151478 72.4944L-0.555622 71.7873L-1.26273 72.4944L-0.555622 73.2015L0.151478 72.4944ZM45.29 117.633L44.5828 118.34L45.29 119.047L45.9971 118.34L45.29 117.633ZM60.3692 102.554L61.0763 103.261L61.7839 102.553L61.0758 101.846L60.3692 102.554ZM60.3685 102.553L59.6614 101.846L58.9538 102.553L59.6619 103.261L60.3685 102.553ZM90.427 72.4944L91.1341 73.2015L91.8412 72.4944L91.1341 71.7873L90.427 72.4944ZM75.3478 57.4152L76.0549 56.7081L75.3478 56.001L74.6407 56.7081L75.3478 57.4152ZM56.3065 76.4565L55.3065 76.4565L55.3065 78.8707L57.0136 77.1636L56.3065 76.4565ZM56.3065 0.120074L57.3065 0.120074L57.3065 -0.879926L56.3065 -0.879926L56.3065 0.120074ZM34.9813 0.120076L34.9813 -0.879924L33.9813 -0.879924L33.9813 0.120076L34.9813 0.120076ZM14.5236 58.1223L34.2742 77.8729L35.6884 76.4587L15.9378 56.708L14.5236 58.1223ZM0.858585 73.2015L15.9378 58.1223L14.5236 56.708L-0.555622 71.7873L0.858585 73.2015ZM45.9971 116.926L0.858585 71.7873L-0.555622 73.2015L44.5828 118.34L45.9971 116.926ZM59.662 101.846L44.5828 116.926L45.9971 118.34L61.0763 103.261L59.662 101.846ZM59.6619 103.261L59.6625 103.261L61.0758 101.846L61.0751 101.845L59.6619 103.261ZM61.0756 103.26L91.1341 73.2015L89.7199 71.7873L59.6614 101.846L61.0756 103.26ZM91.1341 71.7873L76.0549 56.7081L74.6407 58.1223L89.7199 73.2015L91.1341 71.7873ZM74.6407 56.7081L55.5994 75.7494L57.0136 77.1636L76.0549 58.1223L74.6407 56.7081ZM57.3065 76.4565L57.3065 0.120074L55.3065 0.120074L55.3065 76.4565L57.3065 76.4565ZM56.3065 -0.879926L34.9813 -0.879924L34.9813 1.12008L56.3065 1.12007L56.3065 -0.879926ZM33.9813 0.120076L33.9813 77.1658L35.9813 77.1658L35.9813 0.120076L33.9813 0.120076Z"
+                                            fill=currentColor></path>
+                                    </svg>
+                                </span>
+                            </button>
+                        </div>
+                        <div class=arrow-new id=arrow-1></div>
+                    </div>
+                </div>
+                <div class=row>
+                    <div class=arrow data-scroll data-scroll-speed=-1>
+                        <div class=arrow-circle>
+                            <button style=transform:rotate(306deg) type=button
+                                class="button button button-outline--light button--large"
+                                data-hover-text="It will make you WOW! 😉">
+                                <span class=button__text><svg class=button__arrow viewBox="0 0 91 118" fill=none>
+                                        <path
+                                            d="M15.2307 57.4152L15.9378 56.708L15.2307 56.0009L14.5236 56.708L15.2307 57.4152ZM34.9813 77.1658L34.2742 77.8729L35.9813 79.58L35.9813 77.1658L34.9813 77.1658ZM0.151478 72.4944L-0.555622 71.7873L-1.26273 72.4944L-0.555622 73.2015L0.151478 72.4944ZM45.29 117.633L44.5828 118.34L45.29 119.047L45.9971 118.34L45.29 117.633ZM60.3692 102.554L61.0763 103.261L61.7839 102.553L61.0758 101.846L60.3692 102.554ZM60.3685 102.553L59.6614 101.846L58.9538 102.553L59.6619 103.261L60.3685 102.553ZM90.427 72.4944L91.1341 73.2015L91.8412 72.4944L91.1341 71.7873L90.427 72.4944ZM75.3478 57.4152L76.0549 56.7081L75.3478 56.001L74.6407 56.7081L75.3478 57.4152ZM56.3065 76.4565L55.3065 76.4565L55.3065 78.8707L57.0136 77.1636L56.3065 76.4565ZM56.3065 0.120074L57.3065 0.120074L57.3065 -0.879926L56.3065 -0.879926L56.3065 0.120074ZM34.9813 0.120076L34.9813 -0.879924L33.9813 -0.879924L33.9813 0.120076L34.9813 0.120076ZM14.5236 58.1223L34.2742 77.8729L35.6884 76.4587L15.9378 56.708L14.5236 58.1223ZM0.858585 73.2015L15.9378 58.1223L14.5236 56.708L-0.555622 71.7873L0.858585 73.2015ZM45.9971 116.926L0.858585 71.7873L-0.555622 73.2015L44.5828 118.34L45.9971 116.926ZM59.662 101.846L44.5828 116.926L45.9971 118.34L61.0763 103.261L59.662 101.846ZM59.6619 103.261L59.6625 103.261L61.0758 101.846L61.0751 101.845L59.6619 103.261ZM61.0756 103.26L91.1341 73.2015L89.7199 71.7873L59.6614 101.846L61.0756 103.26ZM91.1341 71.7873L76.0549 56.7081L74.6407 58.1223L89.7199 73.2015L91.1341 71.7873ZM74.6407 56.7081L55.5994 75.7494L57.0136 77.1636L76.0549 58.1223L74.6407 56.7081ZM57.3065 76.4565L57.3065 0.120074L55.3065 0.120074L55.3065 76.4565L57.3065 76.4565ZM56.3065 -0.879926L34.9813 -0.879924L34.9813 1.12008L56.3065 1.12007L56.3065 -0.879926ZM33.9813 0.120076L33.9813 77.1658L35.9813 77.1658L35.9813 0.120076L33.9813 0.120076Z"
+                                            fill=currentColor></path>
+                                    </svg>
+                                </span>
+                            </button>
+                        </div>
+                        <div class=arrow-new id=arrow-2></div>
+                    </div>
+                    <div class=elem2 id=box-3 data-scroll data-scroll-speed=1
+                        onclick="window.open('https://github.com/Kan2003/MinorProject','_blank')">
+                        <div class=proj-head>
+                            <h1 data-content=MEDICARE>MEDICARE</h1>
+                        </div>
+                        <div class="image animate">
+                            <img src="https://images.unsplash.com/photo-1639154968821-6dbc3efb8d23?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                                alt>
+                            <img src=./assets/20231224_200418.jpg alt>
+                        </div>
+                        <div class=text>
+                            <h3 style=width:30%>"MEDICARE" Minor Project</h3>
+                            <h3>2022</h3>
+                        </div>
+                        <div class=under-line></div>
+                    </div>
+                    <div class=elem2 id=box-4 data-scroll data-scroll-speed=-1
+                        onclick="window.open('https://github.com/Kan2003/DSA_Learning_app','_blank')">
+                        <div class=proj-head>
+                            <h1 data-content="DSA LEARNING APP">DSA LEARNING APP</h1>
+                        </div>
+                        <div class="image animate">
+                            <img src="https://images.unsplash.com/photo-1633250391894-397930e3f5f2?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                                alt>
+                            <img src="https://images.unsplash.com/photo-1551721434-8b94ddff0e6d?q=80&w=1965&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                                alt>
+                        </div>
+                        <div class=text>
+                            <h3 style=width:30%>Dsa Learning App</h3>
+                            <h3>2023</h3>
+                        </div>
+                        <div class=under-line></div>
+                    </div>
+                </div>
+                <div class=row>
+                    <div class=elem2 id=box-5 data-scroll data-scroll-speed=1 
+                        onclick="window.open('https://kan2003.github.io/cred_website_clone/','_blank')">
+                        <div class=proj-head>
+                            <h1 data-content="CRED CLONE">CRED CLONE</h1>
+                        </div>
+                        <div class="image animate">
+                            <img src="assets/neopop-fold1.png"
+                                alt>
+                            <img src="assets/neopop-image-mock.png"
+                                alt>
+                        </div>
+                        <div class=text>
+                            <h3 style=width:30%>Clone of CERD Website</h3>
+                            <h3>2023</h3>
+                        </div>
+                        <div class=under-line></div>
+                    </div>
+                    <div class=arrow data-scroll data-scroll-speed=-1>
+                        <div class=arrow-circle>
+                            <button style=transform:rotate(270deg) type=button
+                                class="button button button-outline--light button--large"
+                                data-hover-text="It will make you WOW! 😉">
+                                <span class=button__text><svg class=button__arrow viewBox="0 0 91 118" fill=none>
+                                        <path
+                                            d="M15.2307 57.4152L15.9378 56.708L15.2307 56.0009L14.5236 56.708L15.2307 57.4152ZM34.9813 77.1658L34.2742 77.8729L35.9813 79.58L35.9813 77.1658L34.9813 77.1658ZM0.151478 72.4944L-0.555622 71.7873L-1.26273 72.4944L-0.555622 73.2015L0.151478 72.4944ZM45.29 117.633L44.5828 118.34L45.29 119.047L45.9971 118.34L45.29 117.633ZM60.3692 102.554L61.0763 103.261L61.7839 102.553L61.0758 101.846L60.3692 102.554ZM60.3685 102.553L59.6614 101.846L58.9538 102.553L59.6619 103.261L60.3685 102.553ZM90.427 72.4944L91.1341 73.2015L91.8412 72.4944L91.1341 71.7873L90.427 72.4944ZM75.3478 57.4152L76.0549 56.7081L75.3478 56.001L74.6407 56.7081L75.3478 57.4152ZM56.3065 76.4565L55.3065 76.4565L55.3065 78.8707L57.0136 77.1636L56.3065 76.4565ZM56.3065 0.120074L57.3065 0.120074L57.3065 -0.879926L56.3065 -0.879926L56.3065 0.120074ZM34.9813 0.120076L34.9813 -0.879924L33.9813 -0.879924L33.9813 0.120076L34.9813 0.120076ZM14.5236 58.1223L34.2742 77.8729L35.6884 76.4587L15.9378 56.708L14.5236 58.1223ZM0.858585 73.2015L15.9378 58.1223L14.5236 56.708L-0.555622 71.7873L0.858585 73.2015ZM45.9971 116.926L0.858585 71.7873L-0.555622 73.2015L44.5828 118.34L45.9971 116.926ZM59.662 101.846L44.5828 116.926L45.9971 118.34L61.0763 103.261L59.662 101.846ZM59.6619 103.261L59.6625 103.261L61.0758 101.846L61.0751 101.845L59.6619 103.261ZM61.0756 103.26L91.1341 73.2015L89.7199 71.7873L59.6614 101.846L61.0756 103.26ZM91.1341 71.7873L76.0549 56.7081L74.6407 58.1223L89.7199 73.2015L91.1341 71.7873ZM74.6407 56.7081L55.5994 75.7494L57.0136 77.1636L76.0549 58.1223L74.6407 56.7081ZM57.3065 76.4565L57.3065 0.120074L55.3065 0.120074L55.3065 76.4565L57.3065 76.4565ZM56.3065 -0.879926L34.9813 -0.879924L34.9813 1.12008L56.3065 1.12007L56.3065 -0.879926ZM33.9813 0.120076L33.9813 77.1658L35.9813 77.1658L35.9813 0.120076L33.9813 0.120076Z"
+                                            fill=currentColor></path>
+                                    </svg>
+                                </span>
+                            </button>
+                        </div>
+                        <div class=arrow-new id=arrow-3></div>
+                    </div>
+                    <div class=elem2 id=box-6 
+                        onclick="window.open('https://restaurant.rhythmtrades.com/','_blank')">
+                        <div class=proj-head data-content=PINTEREST>
+                            <h1 style="text-transform: uppercase;" data-content="RESTAURANT WEB">restaurant web</h1>
+                        </div>
+                        <div class="image animate">
+                            <img src="/assets/chef1.png"
+                                alt>
+                            <img src="/assets/resbg.png"
+                                alt>
+                        </div>
+                        <div class=text>
+                            <h3 style=width:30%>restaurant Website</h3>
+                            <h3>2023</h3>
+                        </div>
+                        <div class=under-line></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id=allproject>
+            <div id=allcircle onclick="window.open('https://github.com/Kan2003?tab=repositories','_blank')">
+                <h5>All Projects <span>(30+)</span></h5>
+            </div>
+        </div>
+        <div class=gap></div>
+        <div id=about>
+            <div class=heading>
+                <h2>03</h2>
+                <div class=head-right>
+                    <div class=head-inside>
+                        <div class=head-main>
+                            <h1>ABOUT ME</h1>
+                        </div>
+                    </div>
+                    <span class=line></span>
+                </div>
+            </div>
+            <div class=about-contain>
+                <div class=text>
+                    <p class=quote>I'm Kanha Vishwakarma, currently in my final year of B-Tech. Proficient in C++, I
+                        have a solid grasp of Data Structures and Algorithms. I've built over five projects, merging
+                        theory with hands-on experience in software development.</p>
+                </div>
+                <div id=about-bottom>
+                    <div class=image>
+                        <img data-scroll data-scroll-speed=-1 src=./assets/profile.jpg alt>
+                    </div>
+                    <div id=about-bottom-text>
+                        <h3>EXPERIENCE-</h3>
+                        <p class=des>At QualityWebs, I thrived as a Full Stack Web Developer intern, spearheading
+                            three live projects and delving into a WordPress venture. This dynamic role empowered me to
+                            master Dart, Flutter, and Figma, amplifying my proficiency in web development and design.
+                        </p>
+                        <p class=des>Currently diving into ReactJS, NextJS, and NodeJS for a comprehensive web
+                            development skill set. Embracing these technologies to craft efficient, scalable
+                            applications that meet modern demands.</p>
+                        <div class=about-button>
+                            <a target=_blank href="/KANHA_VISHWAKARMA.pdf">Download CV</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class=gap></div>
+        <div id=skills>
+            <div class=heading>
+                <h2>04</h2>
+                <div class=head-right>
+                    <div class=head-inside>
+                        <div class=head-main>
+                            <h1>MY EXPERTISE</h1>
+                        </div>
+                    </div>
+                    <span class=line></span>
+                </div>
+            </div>
+            <div id=skills-contain data-scroll data-scroll-speed=1>
+                <div class=bar>
+                    <h4>Language</h4>
+                    <h2>C</h2>
+                    <div id=skill-arrow>
+                        <img src=https://abhishekjha.me/new-tab.737d741b.svg alt>
+                    </div>
+                </div>
+                <div class=bar>
+                    <h4>Language</h4>
+                    <h2>C++</h2>
+                    <div id=skill-arrow>
+                        <img src=https://abhishekjha.me/new-tab.737d741b.svg alt>
+                    </div>
+                </div>
+                <div class=bar>
+                    <h4>Language</h4>
+                    <h2>BASIC JAVA</h2>
+                    <div id=skill-arrow>
+                        <img src=https://abhishekjha.me/new-tab.737d741b.svg alt>
+                    </div>
+                </div>
+                <div class=bar>
+                    <h4>Development</h4>
+                    <h2>HTML</h2>
+                    <div id=skill-arrow>
+                        <img src=https://abhishekjha.me/new-tab.737d741b.svg alt>
+                    </div>
+                </div>
+                <div class=bar>
+                    <h4>Development</h4>
+                    <h2>CSS</h2>
+                    <div id=skill-arrow>
+                        <img src=https://abhishekjha.me/new-tab.737d741b.svg alt>
+                    </div>
+                </div>
+                <div class=bar>
+                    <h4>Development</h4>
+                    <h2>JAVASCRIPT</h2>
+                    <div id=skill-arrow>
+                        <img src=https://abhishekjha.me/new-tab.737d741b.svg alt>
+                    </div>
+                </div>
+                <div class=bar>
+                    <h4>Animation</h4>
+                    <h2>GSAP</h2>
+                    <div id=skill-arrow>
+                        <img src=https://abhishekjha.me/new-tab.737d741b.svg alt>
+                    </div>
+                </div>
+                <div class=bar>
+                    <h4>Mern</h4>
+                    <h2>React JS</h2>
+                    <div id=skill-arrow>
+                        <img src=https://abhishekjha.me/new-tab.737d741b.svg alt>
+                    </div>
+                </div>
+                <div class=bar>
+                    <h4>Mern</h4>
+                    <h2>Next JS</h2>
+                    <div id=skill-arrow>
+                        <img src=https://abhishekjha.me/new-tab.737d741b.svg alt>
+                    </div>
+                </div>
+                <div class=bar>
+                    <h4>Mern</h4>
+                    <h2>Node JS</h2>
+                    <div id=skill-arrow>
+                        <img src=https://abhishekjha.me/new-tab.737d741b.svg alt>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class=gap></div>
+        <div id=footer>
+            <div class=heading>
+                <h2>05</h2>
+                <div class=head-right>
+                    <div class=head-inside>
+                        <div class=head-main>
+                            <h1>LETS'S CONNECT</h1>
+                        </div>
+                    </div>
+                    <span class=line></span>
+                </div>
+            </div>
+            <div id=footer-contain>
+                <div class=col>
+                    <h3>Coding Profiles</h3>
+                    <div class=profiles>
+                        <div class=revel><a revel-content=Leetcode target=_blank
+                                href=https://leetcode.com/kanha2003 />Leetcode</a></div>
+                        <div class=revel><a revel-content=Hackerrank target=_blank
+                                href=https://www.hackerrank.com/dashboard>Hackerrank</a></div>
+                        <div class=revel><a revel-content=GeeksForGeeks target=_blank
+                                href=https://auth.geeksforgeeks.org/user/kanhavishwasluz>GeeksForGeeks</a></div>
+                        <div class=revel><a revel-content=GitHub target=_blank
+                                href=https://github.com/Kan2003>GitHub</a></div>
+                    </div>
+                </div>
+                <div class=col>
+                    <h3>Socials</h3>
+                    <div class=profiles>
+                        <div class=revel><a revel-content=Linkedin target=_blank
+                                href=https://www.linkedin.com/in/kanha-vishwakarma-3a6267225 />Linkedin</a></div>
+                        <div class=revel><a revel-content=Instagram target=_blank
+                                href="https://www.instagram.com/_kanha_2222/">Instagram</a></div>
+                    </div>
+                </div>
+                <div class=col>
+                    <h3>Say Hi!</h3>
+                    <div class="revel email">
+                        <a target=_blank href=mailto:kanhavishwakarma2003@gmail.com
+                            revel-content=kanhavishwakarma2003@gmail.com>kanhavishwakarma2003@gmail.com</a>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id=copyright>
+            <h4>@2024 Kanha | All Rights Reserved.</h4>
+        </div>
+    </div>
+    <script src=https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js></script>
+    <script src=https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js
+        integrity="sha512-EZI2cBcGPnmR89wTgVnN3602Yyi7muWo8y1B3a8WmIv1J9tYG+udH4LvmYjLiGp37yHB7FfaPBo8ly178m9g4Q=="
+        crossorigin=anonymous referrerpolicy=no-referrer></script>
+    <script src=https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/ScrollTrigger.min.js
+        integrity="sha512-OzC82YiH3UmMMs6Ydd9f2i7mS+UFL5f977iIoJ6oy07AJT+ePds9QOEtqXztSH29Nzua59fYS36knmMcv79GOg=="
+        crossorigin=anonymous referrerpolicy=no-referrer></script>
+    <script src=https://cdnjs.cloudflare.com/ajax/libs/three.js/0.155.0/three.min.js></script>
+    <script src=https://unpkg.com/split-type></script>
+    <script src=https://cdn.jsdelivr.net/gh/automat/controlkit.js@master/bin/controlKit.min.js></script>
+    <script src=https://unpkg.com/sheryjs/dist/Shery.js></script>
+    <script src=script.js></script>
+</body>
+
+</html>
